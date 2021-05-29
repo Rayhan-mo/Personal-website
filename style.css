@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+    
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+    background-color:#fff6fc;
+}
+.header-container {
+   display:grid;
+   grid-template-columns: 40% auto;
+   margin-top: 1em;
+}
+h2{
+    padding-left: 4em;
+    color: #af4181;
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration:none;
+    padding-left:1em;
+    font-size: 1.2em;
+}
+.section-container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin-top:2vh;
+}
+.image-container img{
+    width:24em;
+}
+.profile-container{
+    place-self: center;
+    padding: 0 0 0 3em;
+}
+.image-container{
+    place-self: center;
+}
+h1{
+    font-family:'Bebas Neue', cursive;
+}
+.profile-name{
+    color: #363958;
+    font-size:4em;
+}
+.profile-name1{
+    color: #FF8367;
+    font-size: 4em;
+}
+.profile-container p{
+    font-size: 1.3em;
+}
+.link-button, .link-chat{
+    background-image:linear-gradient(#FF8063, #F46060);
+    width:8em;
+    height: 6vh;
+    text-align:center;
+    border-radius: 5px;
+    color:#fff;
+    margin-top:2vh;
+    cursor: pointer;
+}
+.link-button:hover{
+    color:black;
+    font-weight:bold;
+}
+.about-container{
+    place-self: center;
+    padding: 0 4em 0 0;
+}
+.download{
+    width:9em;
+    height:6vh;
+    font-size: 1.4em;
+}
+.section-latestWork{
+    background-color: #eeeeeed3;
+    margin: 3em 0 2em 0;
+}
+.projects-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+.project img{
+    width:18em;
+}
+.project{
+    place-self: center;
+    box-shadow: 5px 5px 35px gray;
+    padding: 2em;
+    margin: 1em;
+    border-radius:8px;
+}
+.project-header{
+    text-align:center;
+    color: #363958;
+    padding:0 0 2em 0;
+}
+.text-color{
+    color: #F46060;
+}
+.contact-section{
+    background-image: url('shapes/Group_33094_1.png');
+    background-size: 45em;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin:15vh 0 7vh 0;
+}
+.contact{
+    width:80%;
+    margin: 0 auto;
+    height:12em;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    color: white;
+}
+.link-chat{
+    padding-top: 1em;
+}
+.contact h3{
+    font-size:1.5em;
+}
+.link-chat:hover{
+    color: black;
+}
+.social-connect{
+    width:100%;
+    margin-bottom: 10vh;
+}
+.text-line{
+    text-align:center;
+}
+.text-line h4{
+   font-size: 2em;
+   color: #ff5544;
+}
+.text-line h3{
+    font-size: 1.6em;
+}
+.social-icons{
+    padding-top: 1em;
+    display: flex;
+    justify-content:center;
+}
